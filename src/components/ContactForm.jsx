@@ -31,7 +31,7 @@ const ContactForm = () => {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="section-title">¿Listo para tu próxima aventura?</h2>
+        <h2 className="section-title">¿Pronto para sua próxima aventura?</h2>
         <motion.form 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ const ContactForm = () => {
           style={{ maxWidth: '600px', margin: '0 auto' }}
         >
           <div style={{ marginBottom: '20px' }}>
-            <label htmlFor="name" style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Nombre completo</label>
+            <label htmlFor="name" style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Nome completo</label>
             <input
               type="text"
               id="name"
@@ -64,7 +64,7 @@ const ContactForm = () => {
             />
           </div>
           <div style={{ marginBottom: '20px' }}>
-            <label htmlFor="destination" style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Destino deseado</label>
+            <label htmlFor="destination" style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Destino desejado</label>
             <input
               type="text"
               id="destination"
@@ -75,7 +75,7 @@ const ContactForm = () => {
             />
           </div>
           <div style={{ marginBottom: '20px' }}>
-            <label htmlFor="message" style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Mensaje</label>
+            <label htmlFor="message" style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Mensagem</label>
             <textarea
               id="message"
               name="message"
@@ -85,7 +85,7 @@ const ContactForm = () => {
               style={{ width: '100%', padding: '12px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem', resize: 'vertical' }}
             ></textarea>
           </div>
-          <button type="submit" className="primary-btn" style={{ width: '100%' }}>Enviar consulta</button>
+          <button type="submit" className="primary-btn" style={{ width: '100%' }}>Enviar mensagem</button>
         </motion.form>
       </div>
     </section>

@@ -5,33 +5,33 @@ const Benefits = () => {
     {
       id: 1,
       icon: '✈️',
-      title: 'Vuelos Directos',
-      description: 'Conexiones directas a los principales destinos del mundo.'
+      title: 'Voos Diretos',
+      description: 'COnexões diretas com os principais destinos do mundo.'
     },
     {
       id: 2,
       icon: '🏨',
-      title: 'Alojamiento Premium',
-      description: 'Hoteles seleccionados con los mejores servicios y comodidades.'
+      title: 'Acomodações Premium',
+      description: 'Hotéis selecionados com os melhores serviços e comodidades.'
     },
     {
       id: 3,
       icon: '🛡️',
-      title: 'Seguro de Viaje',
-      description: 'Protección completa durante toda tu aventura.'
+      title: 'Seguro de Viagem',
+      description: 'Proteção completa durante sua aventura.'
     },
     {
       id: 4,
       icon: '📱',
-      title: 'App Exclusiva',
-      description: 'Gestiona tu viaje desde nuestra aplicación móvil.'
+      title: 'Sempre ao seu lado',
+      description: 'Viagem segura com suporte 24 horas por dia'
     }
   ]
 
   return (
     <section className="section" style={{ backgroundColor: '#f9f9f9' }}>
       <div className="container">
-        <h2 className="section-title">¿Por qué elegirnos?</h2>
+        <h2 className="section-title">¿Por que nos escolher?</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '30px' }}>
           {benefits.map((benefit, index) => (
             <motion.div

@@ -10,14 +10,14 @@ const About = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <h2 className="section-title" style={{ textAlign: 'left' }}>Sobre Simplick Viagens</h2>
+            <h2 className="section-title" style={{ textAlign: 'left' }}>Sobre a Simplick Viagens</h2>
             <p style={{ marginBottom: '20px', fontSize: '1.1rem' }}>
-              Simplick Viagens nació de la pasión por descubrir el mundo y hacer que los viajes sean accesibles para todos. Con más de 10 años de experiencia en el sector, nos hemos convertido en referentes en la creación de experiencias únicas e inolvidables.
+              Simplick Viagens nasceu da paixão por descobrir o mundo e tornar as viagens acessíveis a todos. Com mais de 10 anos de experiência no setor, nos tornamos referência na criação de experiências únicas e inesquecíveis.
             </p>
             <p style={{ marginBottom: '20px', fontSize: '1.1rem' }}>
-              Nuestro equipo de expertos en viajes trabaja incansablemente para encontrar las mejores opciones y ofrecerte un servicio personalizado que se adapte a tus necesidades y sueños.
+              Nossa equipe de especialistas em viagens trabalha incansavelmente para encontrar as melhores opções e oferecer um serviço personalizado que se adapte às suas necessidades e sonhos.
             </p>
-            <button className="primary-btn">Conoce más</button>
+            <button className="primary-btn">Entre em contato</button>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 50 }}

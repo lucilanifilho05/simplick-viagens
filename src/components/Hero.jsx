@@ -18,9 +18,9 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="hero-content"
         >
-          <h1 style={{ fontSize: '3.5rem', marginBottom: '20px' }}>Descubre el mundo con Simplick Viagens</h1>
-          <p style={{ fontSize: '1.5rem', marginBottom: '40px' }}>Tu próxima aventura está a un clic de distancia</p>
-          <button className="primary-btn">Reservar Ahora</button>
+          <h1 style={{ fontSize: '3.5rem', marginBottom: '20px' }}>Descubra o mundo com a Simplick Viagens</h1>
+          <p style={{ fontSize: '1.5rem', marginBottom: '40px' }}>Sua próxima aventura está a um click de distância</p>
+          <button className="primary-btn">Reservar Agora</button>
         </motion.div>
       </div>
     </section>

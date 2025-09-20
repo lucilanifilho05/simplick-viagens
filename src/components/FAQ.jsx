@@ -6,24 +6,24 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: '¿Cómo puedo reservar un viaje?',
-      answer: 'Puedes reservar directamente a través de nuestra página web, contactarnos por teléfono o visitar nuestras oficinas.'
+      question: 'Como posso reservar uma viagem?',
+      answer: 'Você pode reservar diretamente através do nosso site, nos contatar por telefone ou visitar nossas lojas.'
     },
     {
-      question: '¿Qué incluyen los paquetes de viaje?',
-      answer: 'Nuestros paquetes incluyen vuelos, alojamiento, traslados y seguro de viaje. Algunos también incluyen excursiones y actividades.'
+      question: 'O que os pacotes de viagem incluêm?',
+      answer: 'Nossos pacotes incluem voos, acomodação, traslados e seguro de viagem. Alguns também incluem excursões e atividades.'
     },
     {
-      question: '¿Ofrecen opciones de pago flexibles?',
-      answer: 'Sí, ofrecemos diferentes planes de pago y opciones de financiación para adaptarnos a tus necesidades.'
+      question: 'Oferecem opções de pagamento flexíveis?',
+      answer: 'Sim, oferecemos diferentes planos de pagamento e opções de financiamento para nos adequarmos às suas necessidades.'
     },
     {
-      question: '¿Qué pasa si necesito cancelar mi viaje?',
-      answer: 'Dependiendo del tipo de reserva y la antelación de la cancelación, aplicarán nuestras condiciones de cancelación. Te recomendamos contratar un seguro de cancelación.'
+      question: 'O que acontece se eu precisar cancelar minha viagem?',
+      answer: 'Dependendo do tipo de reserva e da antecedência do cancelamento, nossas condições de cancelamento se aplicarão. Recomendamos contratar um seguro de cancelamento.'
     },
     {
-      question: '¿Pueden ayudarme con los visados?',
-      answer: 'Sí, te asesoramos sobre los requisitos de visado para tu destino y te ayudamos con la documentación necesaria.'
+      question: 'Podem me ajudar com os vistos?',
+      answer: 'Sim, nós te assessoramos sobre os requisitos de visto para o seu destino e te ajudamos com a documentação necessária..'
     }
   ]
 

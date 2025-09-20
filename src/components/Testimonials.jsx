@@ -4,23 +4,23 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'María González',
+      name: 'Maria Gonçalves',
       photo: 'https://randomuser.me/api/portraits/women/32.jpg',
-      review: 'Mi viaje a Bali fue increíble. Simplick se encargó de todo y pude disfrutar sin preocupaciones. ¡Volveré a confiar en ellos!',
+      review: 'Minha viagem a Bali foi incrível. A Simplick cuidou de tudo e pude aproveitar sem preocupações. Confiarei neles novamente!',
       rating: 5
     },
     {
       id: 2,
-      name: 'Carlos Rodríguez',
+      name: 'Carlos Rodrígues',
       photo: 'https://randomuser.me/api/portraits/men/22.jpg',
-      review: 'Excelente servicio al cliente. Respondieron todas mis preguntas y me ayudaron a planificar el viaje perfecto a Japón.',
+      review: 'Excelente atendimento ao cliente. Responderam a todas as minhas perguntas e me ajudaram a planejar a viagem perfeita para o Japão!',
       rating: 5
     },
     {
       id: 3,
-      name: 'Ana Martínez',
+      name: 'Ana Helen',
       photo: 'https://randomuser.me/api/portraits/women/65.jpg',
-      review: 'Viajé con Simplick a París y todo salió perfecto. Los recomiendo 100%.',
+      review: 'Viajei com a Simplick para Paris e tudo saiu perfeito. Recomendo 100%.',
       rating: 4
     }
   ]
@@ -28,7 +28,7 @@ const Testimonials = () => {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="section-title">Lo que dicen nuestros clientes</h2>
+        <h2 className="section-title">O que dizem nossos clientes</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
           {testimonials.map((testimonial, index) => (
             <motion.div

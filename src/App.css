@@ -8,6 +8,7 @@
 body {
   line-height: 1.6;
   color: #333;
+  overflow-x: hidden; /* Adicionado para evitar scroll horizontal */
 }
 
 .container {
@@ -67,6 +68,96 @@ body {
   text-align: center;
 }
 
+/* Navbar Styles */
+.navbar {
+  background-color: #b431fd;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(180, 49, 253, 0.95);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.desktop-menu {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.mobile-menu-btn {
+  display: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 15px;
+  overflow: hidden;
+  background-color: #b431fd;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu.active {
+  display: flex;
+}
+
+.mobile-nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 1.2rem;
+}
+
+.mobile-nav-link:hover {
+  opacity: 0.8;
+  padding-left: 10px;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .section {
@@ -76,5 +167,42 @@ body {
   .section-title {
     font-size: 2rem;
     margin-bottom: 30px;
+  }
+  
+  .desktop-menu {
+    display: none !important;
+  }
+  
+  .mobile-menu-btn {
+    display: block !important;
+  }
+  
+  /* Ajustes adicionais para mobile */
+  .navbar {
+    padding: 12px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+}
+
+/* Para telas muito pequenas */
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .primary-btn, .secondary-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
   }
 }

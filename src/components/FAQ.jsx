@@ -32,7 +32,7 @@ const FAQ = () => {
   }
 
   return (
-    <section className="section" style={{ backgroundColor: '#f9f9f9' }}>
+    <section id='faq' className="section" style={{ backgroundColor: '#f9f9f9' }}>
       <div className="container">
         <h2 className="section-title">Preguntas Frecuentes</h2>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>

@@ -29,7 +29,7 @@ const Benefits = () => {
   ]
 
   return (
-    <section className="section" style={{ backgroundColor: '#f9f9f9' }}>
+    <section id='beneficios' className="section" style={{ backgroundColor: '#f9f9f9' }}>
       <div className="container">
         <h2 className="section-title">¿Por que nos escolher?</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '30px' }}>

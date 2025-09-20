@@ -26,7 +26,7 @@ const Testimonials = () => {
   ]
 
   return (
-    <section className="section">
+    <section id='depoimentos' className="section">
       <div className="container">
         <h2 className="section-title">O que dizem nossos clientes</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>

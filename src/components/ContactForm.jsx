@@ -29,7 +29,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section className="section">
+    <section id='contato' className="section">
       <div className="container">
         <h2 className="section-title">¿Pronto para sua próxima aventura?</h2>
         <motion.form 

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <section className="section" style={{ backgroundColor: '#f9f9f9' }}>
+    <section id='sobre' className="section" style={{ backgroundColor: '#f9f9f9' }}>
       <div className="container">
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '50px', alignItems: 'center' }}>
           <motion.div

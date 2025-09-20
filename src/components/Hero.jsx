@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <section className="hero" style={{ 
-      backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80')",
+    <section id='hero' className="hero" style={{ 
+      backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero.png')",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       height: '100vh',
@@ -20,7 +20,17 @@ const Hero = () => {
         >
           <h1 style={{ fontSize: '3.5rem', marginBottom: '20px' }}>Descubra o mundo com a Simplick Viagens</h1>
           <p style={{ fontSize: '1.5rem', marginBottom: '40px' }}>Sua próxima aventura está a um click de distância</p>
-          <button className="primary-btn">Reservar Agora</button>
+          <button 
+            className="primary-btn"
+            onClick={() => {
+              const contatoSection = document.getElementById('contato');
+              if (contatoSection) {
+                contatoSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
+            Reservar Agora
+          </button>
         </motion.div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import Navbar  from './components/NavBar'
 import Hero from './components/Hero'
 import FeaturedDestinations from './components/FeaturedDestinations'
 import Benefits from './components/Benefits'
@@ -12,6 +13,7 @@ import './App.css'
 function App() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
+      <Navbar />
       <Hero />
       <FeaturedDestinations />
       <Benefits />

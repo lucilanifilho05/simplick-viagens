@@ -29,7 +29,7 @@ const FeaturedDestinations = () => {
   ]
 
   return (
-    <section className="section">
+    <section id='destinos' className="section">
       <div className="container">
         <h2 className="section-title">Destinos Procurados</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '30px' }}>
